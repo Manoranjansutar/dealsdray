@@ -1,4 +1,9 @@
 <h1>Project Overview</h1>
+
+<h2>Live Demo</h2>
+<p>Frontend live sever - https://openhrms.vercel.app/</p>
+<p>Backend live server - https://dealdray-backend.onrender.com/</p>
+
 <p>HomePage</p>
 
 ![opnhrms](https://github.com/user-attachments/assets/b4a18a3e-0534-49b0-a6ed-0cecbf0c5242)
@@ -20,4 +25,37 @@
 <p>View Employee Page</p>
 
 ![openhrms-view](https://github.com/user-attachments/assets/cec43fab-e779-46b8-a614-925578770b91)
+
+## Frontend Setup
+
+<p>1. Navigate to the Frontend Directory</p>
+<pre><code>cd frontend</code></pre>
+
+<p>2. Install Dependencies</p>
+<pre><code>npm install</code></pre>
+
+<p>3. Run the Frontend Development Server</p>
+<pre><code>npm run dev</code></pre>
+
+<p>The frontend development server should now be running at <a href="http://localhost:5173">http://localhost:5173</a>.</p>
+
+## Backend Setup
+
+<p>1. Navigate to the Backend Directory</p>
+<pre><code>cd backend</code></pre>
+
+<p>2. Install Dependencies</p>
+<pre><code>npm install</code></pre>
+
+<p>3. Configure Environment Variables</p>
+<p>Create a <code>.env</code> file in the <code>backend</code> directory and add the following variable:</p>
+<pre><code>MONGODB_URL="mongodb+srv://manoranjanrkl2009:kpUm31fPKRQ6H8vF@cluster0.m3w90.mongodb.net/"</code></pre>
+<p>Create SECRET_KEY in .env</p>
+<p>SECRET_KEY ="randomsecret"</p>
+
+<p>4. Run the Backend Server</p>
+<pre><code>npx nodemon server.js</code></pre>
+
+<p>The backend server should now be running at <a href="http://localhost:5000">http://localhost:4000</a>.</p>
+
 
