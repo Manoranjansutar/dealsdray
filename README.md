@@ -56,6 +56,6 @@
 <p>4. Run the Backend Server</p>
 <pre><code>npx nodemon server.js</code></pre>
 
-<p>The backend server should now be running at <a href="http://localhost:5000">http://localhost:4000</a>.</p>
+<p>The backend server should now be running at <a href="http://localhost:5000">http://localhost:5000</a>.</p>
 
 
