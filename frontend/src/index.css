@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.jost {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: 'Jost', Courier, monospace;
+  /* outline: 2px solid red; */
+  scroll-behavior: smooth;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden; 
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos-slide {
+  display: inline-flex;
+  animation: slide 20s linear infinite; 
+}
+
+.logos-slide::after {
+  content: ''; 
+  display: inline-flex; 
+}
+
+.logos-slide > img {
+  height: 30px;
+  margin: 0 20px;
+}
+
+
+
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  background: #fff;
+}
